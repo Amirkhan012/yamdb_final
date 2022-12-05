@@ -21,7 +21,6 @@
         10 - TokenJWTSerializer
 """
 from rest_framework import serializers, validators
-
 from reviews.models import Category, Comment, Genre, Review, Title, User
 
 

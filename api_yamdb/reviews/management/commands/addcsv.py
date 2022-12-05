@@ -21,7 +21,6 @@
 import csv
 
 from django.core.management.base import BaseCommand, CommandError
-
 from reviews.models import Category, Comment, Genre, Review, Title, User
 
 CSV = {
@@ -43,8 +42,8 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         for file, model in CSV.items():
-            with open('static/data/' + file, 'r', encoding="utf8") as csvFile:
-                reader = csv.DictReader(csvFile, delimiter=',')
+            with open('static/data/' + file, 'r', encoding="utf8") as csvfile:
+                reader = csv.DictReader(csvfile, delimiter=',')
                 for data in reader:
                     try:
                         model.objects.get_or_create(**data)
