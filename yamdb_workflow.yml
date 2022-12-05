@@ -21,10 +21,9 @@ jobs:
 
     - name: Test with flake8 and django tests
       run: |
-        pytest.exe
         python -m flake8
         cd api_yamdb/
-        python manage.py test
+        python manage.py -m test
 
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
