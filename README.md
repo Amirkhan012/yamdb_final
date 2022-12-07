@@ -5,7 +5,7 @@ yamdb_final
 ![workflow](https://github.com/Amirkhan012/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Ссылка на развернутый проект
-https://62.84.123.70/
+http://62.84.123.70/
 
 # Описание 
 Проект Проект YaMDb 
