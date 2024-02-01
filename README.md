@@ -1,12 +1,3 @@
-# yamdb_final
-yamdb_final
-
-# Статус
-![workflow](https://github.com/Amirkhan012/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-
-## Ссылка на развернутый проект
-http://62.84.123.70/
-
 # Описание 
 Проект YaMDb 
 Авторы: 
